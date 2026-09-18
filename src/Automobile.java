@@ -3,6 +3,7 @@ public class Automobile {
     private String marca;
     private String modello;
     private int anno;
+    private String color;
 
     public Automobile() {
     }
@@ -31,5 +32,12 @@ public class Automobile {
         this.anno = anno;
     }
 
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 
 }
